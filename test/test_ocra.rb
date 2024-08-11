@@ -59,7 +59,7 @@ class TestOcran < Minitest::Test
 
   def initialize(*args)
     super(*args)
-    @ocran = File.expand_path(File.join(File.dirname(__FILE__), '..', 'bin', TESTED_OCRAN))
+    @ocran = File.expand_path(File.join(File.dirname(__FILE__), '..', 'exe', TESTED_OCRAN))
     ENV['RUBYOPT'] = ""
   end
 

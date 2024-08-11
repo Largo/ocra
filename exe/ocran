@@ -1,5 +1,5 @@
 #!/usr/bin/env ruby
-# encoding: UTF-8
+# frozen_string_literal: true
 
 load File.expand_path("../lib/ocran/runner.rb", __dir__)
 load Ocran::Runner.new.run

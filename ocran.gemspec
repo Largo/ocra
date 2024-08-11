@@ -39,8 +39,8 @@ Gem::Specification.new do |spec|
     #       (f == __FILE__) || f.match(%r{\A(?:(?:bin|test|spec|features)/|\.(?:git|circleci)|appveyor)})
     #     end
     #   end
-  spec.files = Dir.glob("bin/ocran") + Dir.glob("lib/**/**")  + Dir.glob("share/ocran/**") 
-  spec.bindir = "bin"
+  spec.files = Dir.glob("exe/ocran") + Dir.glob("lib/**/**")  + Dir.glob("share/ocran/**")
+  spec.bindir = "exe"
   spec.executables = %w[ocran]
   spec.require_paths = ["lib"]
 
